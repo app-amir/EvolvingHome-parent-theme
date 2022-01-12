@@ -5,9 +5,9 @@ EvolvingHome Pwered by AMIR SOHAIL
 
 **Lead:** AMIR SOHAIL
 
-**Data Entry:** Junior Team
+**Data Entry:** Dedicated Team
 
-**Front-End Team:** AMIR SOHAIL
+**Front-End Team:** Dedicated Team & AMIR SOHAIL
 
 **Back-End Team:** AMIR SOHAIL
 
@@ -34,39 +34,20 @@ This theme is created to customize WordPress and fulfill the Project requirement
 | evolvinghome_breadcrumb | Display Breadcrumb(Navigation) at every page of website |
 | evolvinghome_quick_fix | Displaying Default post type Posts of displaying post for its related category with differetnt section of design at homepage it crafted by even and odd terms |
 | evolvinghome_contact_newsletter | Fetching Just contact form 7 |
-| mccain_current_year | get current year, used in footer. |
-| mccain_default_archive | Create a structure for archive pages. ( Used `pre_get_posts` for setting the query args. ) |
-| mccain_on_the_issue | Create a structure for `on-the-issue` category archive pages. |
-| mccain_report_archive_filter | Create a structure for filter, used on reports archive. |
-| mccain_podcast_archive_filter | Create a structure for filter, used on podcast archive. |
-| mccain_event_archive_filter | Create a structure for filter, used on events archive. |
-| mccain_issue_category_archive_filter | Create a structure for filter, used on the issue category archive. |
-| mccain_featured_issue | Used in slider and called on the issues page. |
-| mccain_staff_block | Fetch the Staff posts with ACF data and display them on the staff page. |
-| mccain_ngl_block | Fetch the NGL posts with ACF data and display them on the leadership page. |
+| evolvinghome_you_may_also_like | Fetching the related posts for Detail page by exculding the current post at the bottom of the page |
+The entire has been created from scratched as parent theme.  
 
-
-## Custom Templates ##
-* No Custom Template.
-
-## CPT's - (Inside the Plugin) ##
+## CPT's - (Inside the Theme Includes folder) ##
 
 | CPT Name | Registered Name | Slug |
 | ----------- | ----------- | ----------- |
-| McCain Podcast | mccain-podcast | resources/podcast |
-| McCain Reports | mccain-report | resources/reports |
-| McCain Events | mccain-event | resources/events |
-| McCain Quotes | mccain-quote | quotes |
+| Team | eh-team | our-team |
 
-## Custom Taxonomies - (Inside the Plugin) ##
+## Custom Taxonomies - (Inside the Theme Includes folder) ##
 
 | Taxonomy Name | Registered Name | Slug |
 | ----------- | ----------- | ----------- |
-| McCain Post Terms | mccain-term | term |
-| McCain Event Tags | mccain-event-tags | tags |
-| McCain Report Types | mccain-report-type | report-types |
-| McCain Podcast Types | mccain-podcast-term | podcast-term |
-| McCain Quote Types | mccain-quote-type | types |
+| No Taxonmomy created
 
 ## Images Sizes ##
 Registered by WordPress:
