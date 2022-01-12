@@ -1,0 +1,341 @@
+/**************************************************
+***************************************************
+                RESPONSIVENESS START
+***************************************************
+***************************************************/
+@media (min-width:200px) and (max-width:700px) {
+    .hero_home h2,.ftrcta h2,h2.hdnh2_n{font-size:38px}
+    .cd_nameico h3{font-size:32px}
+    h2.hdnh2{font-size:30px}
+    .cdp_sta h3{font-size:26px}
+    p,li,.hero_home p{font-size:18px}
+    .wpcf7 form p{display:block}
+    .cat_hdns p,#ftrsec p,.ftrtxt p{font-size:16px}
+    .style_a_posts>.div2c,.cntrpost,.ftrcta .ctleft,.fixwid,.fsidew{width:100%;max-width:100%}
+    #hdr_top .dflex_c,.logontag,.cd_head,.cdp_sta,.rht_post,.cntrpost,.div2c,.ftrcta .dflex_c,.frmcode form,.widarea{display:block}
+    .hero_home .herocnt:before,.cd_shlist ul,.cd_head a.seeall_btn,.hero_home p br{display:none}
+    .tpmenu,.lwrhdr,.logo_tagline{display:none}
+    a.logo_hdr img{width:40px}
+    a.logo_hdr div{font-size:28px;margin:18px 0 0 10px}
+    .hero_home{padding:60px 0 70px;background-image:none!important}
+    .hero_home h2{margin-bottom:20px}
+    .bigpost_c>img{height:auto}
+    .cd_nameico img{height:32px;width:auto;margin-right:20px}
+    .bigpost_c,.rht_post,.cntrpost{margin:0 0 20px}
+    .rht_post>img{width:100%}
+    .cdp_sta p{line-height:1.4em}
+    .cntrpost>div,.rht_post>div,.bigpost_c>div{padding:0 2%}
+    .cntrpost .auth_det,.cntrpost h3,.cdp_sta h3,.cdp_sta .auth_det{margin-bottom:15px}
+    .cntrpost>img,.rht_post>img,.bigpost_c>img{margin-bottom:30px}
+    .bigpost_c,.rht_post,.cntrpost{padding:12px 10px 30px}
+    body.search-results .cdp_sta .cntrpost{max-width:100%}
+    .cd_head{padding:30px 0}
+    .cd_nameico{margin-left:2%}
+    .cat_det{margin-top:80px}
+    .cdp_sta{margin-bottom:80px}
+    .cat_hdns .hdnsec{margin-bottom:50px}
+    .ftrcta{padding:70px 0 0}
+    .ftrcta h2{margin-bottom:15px}
+    .fixwid a.logo_hdr{margin-bottom:20px;justify-content:center}
+    .ftrcta img{position:relative;right:0;bottom:0;max-width:80%;margin:40px auto 0}
+    .frmcode{background:none;width:100%;margin:30px auto 0}
+    .frmcode form{padding:0}
+    .frmcode input[type="text"],.hero_home input[type="email"]{width:100%;background-color:#fff;padding:0 20px 0 60px;background-size:30px;height:54px;background-position:left 10px center;border-radius:5px}
+    .frmcode input[type="submit"]{width:100%;margin:10px 0 0;height:54px}
+    .widarea{padding:70px 0 40px}
+    .fsidew{flex-wrap:wrap;margin-top:0}
+    .fsidew .widf{width:44%}
+    .widf h3{margin:50px 0 20px;font-size:18px}
+    .widf ul li{font-size:16px}
+    #ftrsec ul.soc_btns{margin:40px auto 0;justify-content:center}
+    ul.soc_btns li{margin-right:15px}
+    ul.soc_btns li a{font-size:18px;width:30px;height:30px}
+    .ftrtxt{padding:40px 0;border-width:2px}
+    .cat_hdns p,#ftrsec p{text-align:center}
+    .catg_list li div{width:100px;height:100px;margin:0 auto 25px}
+    .catg_list li{margin:0 2.5% 20px;width:44%}
+    .catg_list li a{padding:25px;width:150px;height:150px}
+    .catg_list li div{width:50px;height:50px;margin:0 auto 20px}
+    .catg_list li p{letter-spacing:0;font-size:16px}
+    .cat_hdns h2{margin-bottom:20px}
+    .featured_in h4{margin-bottom:40px}
+    .featured_in{padding:50px 0 20px}
+    .featured_in ul{flex-wrap:wrap;justify-content:space-between}
+    .featured_in ul li{margin:0 1% 30px;width:30%}
+    .featured_in ul li img{height:auto;max-width:80%;margin:0 auto}
+    .style_d_posts .div2c{display:block}
+    .f4c_post{width:100%;max-width:100%;padding:30px;margin:0 auto 20px}
+    .hero_def .dflex_r{padding:60px 0}
+    .arch_hero .dflex_r{padding-bottom:180px}
+    .hero_def .dflex_r>div{max-width:100%;margin:0 auto;text-align:center}
+    .hero_def h2{font-size:50px;margin-bottom:25px}
+    .arch_sec1>.wrp_1320>p{margin-top:30px}
+    h2.hdnh2_n{margin-bottom:20px}
+    .meettheteam_sec{padding:80px 0 1px}
+    .hdn_sec{padding:0 4%;margin-bottom:90px}
+    .team_mems li{width:37%;max-width:100%;margin:0 1.5% 20px;padding:30px 4%;border-width:2px}
+    .team_mems img{width:70px;height:70px;margin-bottom:15px}
+    .team_mems h3{font-size:20px;margin-bottom:8px}
+    .team_mems p{font-size:16px}
+    .team_mems a.btno{font-size:16px;width:auto;padding:10px;letter-spacing:0}
+    .ourstats_sec{margin-top:70px}
+    .ourstats_wids{flex-direction:column;margin-bottom:70px}
+    .ourstats_wids li{padding:40px 5%;margin:0 auto 30px;max-width:80%;align-items:center}
+    .ourstats_wids li .stat_ico{width:100px;height:100px;margin-right:5%}
+    .ourstats_wids li h3{font-size:60px}
+    .ourstats_wids li p{font-size:18px}
+    .abt_last_sec{padding:70px 0;margin-bottom:0}
+    .abt_last_sec .dflex_c{display:block}
+    .abt_last_sec .dflex_c>h2{width:auto;margin-bottom:30px;font-size:32px;text-align:center}
+    .abt_last_sec .dflex_c>div{width:auto}
+    .editr_proc{flex-wrap:wrap;padding-bottom:50px}
+    .editr_proc li{max-width:46%;padding:0 2% 50px}
+    .editr_proc li:before{display:none}
+    .editr_proc li div{width:90%}
+    .editr_proc img{margin:0 auto 20px}
+    .team_mems{padding-bottom:50px}
+    .main_menu ul.menu{position:fixed;top:0;right:0;z-index:4;background:#ffc725;display:none;padding:100px 30px 30px;min-width:200px}
+    .main_menu ul.menu>li{display:block;margin:0 0 15px}
+    .main_menu a{color:#191933}
+    .main_menu ul.menu>li:last-child>a{border:1px solid #191933;padding:18px 15px}
+    #mobmenubtn{position:absolute;top:40px;right:6%;z-index:6;display:block;width:28px;height:28px;opacity:1}
+    #mobmenubtn span{display:block;width:100%;height:4px;background:#fff;position:absolute}
+    #mobmenubtn span.line1{top:0}
+    #mobmenubtn span.line2{top:11px}
+    #mobmenubtn span.line3{top:22px}
+    #mobmenubtn.opendm span{background:#000}
+    #mobmenubtn.opendm span.line1{top:12px;-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-o-transform:rotate(-135deg);transform:rotate(-135deg)}
+    #mobmenubtn.opendm span.line2{top:12px;-webkit-transform:rotate(135deg);-moz-transform:rotate(135deg);-o-transform:rotate(135deg);transform:rotate(135deg)}
+    #mobmenubtn.opendm span.line3{display:none}
+    #mobmenu_cont{position:absolute;top:0;right:0;z-index:5;background:#fff;box-shadow:0 0 10px -4px #000;padding:80px 0 30px;min-width:280px}
+    #mobmenu_cont ul{margin:0 0 10px;padding:0}
+    #mobmenu_cont li{display:block;margin-bottom:1px}
+    #mobmenu_cont li a{display:block;color:#000;padding:6px 30px}
+    #mobmenu_cont li a:hover{background:#eaeaea}
+    .blogpost_sec .wrp_1320{display:block}
+    .breadcrumb_top{display:none}
+    .pcontleft{max-width:100%}
+    h1.posttitle{font-size:42px}
+    .blogpost_sec{padding:50px 0 1px}
+    hr.black_bar{margin:50px 0;height:1px}
+    .content_pst p.bigtxt{font-size:22px}
+    .fea_img_post img{margin-bottom:50px}
+    .content_pst h2,.content_pst h3,.content_pst h4,.content_pst h5,.content_pst h6{margin:50px 0 20px}
+    .content_pst h2{font-size:36px}
+    .content_pst h3{font-size:32px}
+    .content_pst h4{font-size:28px}
+    .content_pst h5{font-size:24px}
+    .content_pst h6{font-size:20px}
+    .content_pst p{font-size:18px;margin-bottom:20px}
+    .content_pst blockquote p{border-left-width:5px;font-size:18px;padding:30px 8%}
+    .share_btns{padding:30px 0}
+    .share_btns p{margin-right:25px}
+    .psidebar{max-width:100%;margin:50px auto 0}
+    }
+    @media (max-width:700px) {
+    .desktop_item{display:none!important}
+    }
+    @media (min-width:701px) {
+    .mobile_item{display:none!important}
+    }
+    @media (min-width:701px) and (max-width:1200px) {
+    .wrp_1320{max-width:92%}
+    .uprhdr{padding:25px 0 30px}
+    a.logo_hdr img{width:40px}
+    a.logo_hdr div{margin:18px 0 0 15px;font-size:30px}
+    p.logo_tagline{font-size:16px;margin:0 0 2px 15px}
+    .tpmenu{padding-top:25px}
+    .tpmenu li{margin-left:18px}
+    .tpmenu a{font-size:16px}
+    .btmmenu li{margin:5px 20px 5px 0}
+    .btmmenu a{font-size:16px;letter-spacing:0}
+    .searchb{padding:10px 0 10px 5px}
+    .searchb input{width:80px;background-size:20px}
+    .lwrhdr .dflex_c{justify-content:space-between}
+    .hero_home{padding:100px 0 400px;background-position:center bottom;background-size:60%}
+    .hero_home .herocnt::before{display:none}
+    .hero_home .herocnt{max-width:100%;margin:0 auto}
+    .hero_home h2{font-size:60px;margin-bottom:30px}
+    .frmcode{margin-top:40px}
+    .featured_in{padding:70px 0}
+    .featured_in h4{margin-bottom:35px}
+    h2.hdnh2{font-size:48px;margin-bottom:30px}
+    .cat_hdns .hdnsec{max-width:80%;margin-bottom:60px}
+    .catg_list li{margin:0 10px 40px}
+    .catg_list li a{width:200px;height:200px;padding:30px}
+    .catg_list li div{width:100px;height:100px;margin-bottom:25px}
+    .catg_list li p{font-size:16px}
+    .cat_det{margin-top:90px}
+    .cd_head{display:block;padding:70px 0}
+    .cd_nameico{justify-content:center;margin-bottom:25px}
+    .cd_nameico img{width:60px;margin-right:20px}
+    .cd_nameico h3{font-size:48px}
+    .cd_shlist{justify-content:space-between;flex-direction:column}
+    .cd_shlist ul{margin-bottom:20px}
+    .cd_shlist ul li a{font-size:16px;margin-right:10px}
+    .cd_shlist ul li a:after{margin-left:10px}
+    .bigpost_c>img{height:auto}
+    .hdn_sec{padding:0 5%;margin-bottom:80px}
+    .team_mems li{max-width:23%;margin:0 1% 20px;padding:25px 3%;width:100%}
+    .team_mems img{width:90px;height:90px;margin-bottom:20px}
+    .team_mems h3{font-size:22px;margin-bottom:10px}
+    .team_mems p{font-size:16px;margin-bottom:20px}
+    .team_mems a.btno{width:auto;font-size:16px;padding:10px;letter-spacing:0}
+    .ourstats_wids{flex-wrap:wrap}
+    .ourstats_wids li{width:24%;margin:0 1.5% 20px 0;padding:30px 2.5%;align-items:center}
+    .ourstats_wids li:last-child{margin-right:0}
+    .ourstats_wids li .stat_ico{width:55px;height:55px;margin-right:0}
+    .ourstats_wids li .stat_cnt{width:55%}
+    .ourstats_wids li h3{font-size:54px}
+    .ourstats_wids li p{font-size:15px}
+    .editr_proc{padding:50px 0 150px}
+    .editr_proc li:before{width:20px;height:20px}
+    .editr_proc li div{width:auto}
+    .editr_proc img{height:50px;margin-bottom:40px}
+    h2.hdnh2_n{font-size:48px}
+    }
+    @media (min-width:701px) and (max-width:992px) {
+    .logontag{flex-wrap:wrap;max-width:40%}
+    p.logo_tagline{font-size:16px;margin:2px 0 0}
+    .ftrcta{padding:90px 0 180px}
+    .ftrcta h2{font-size:48px;margin-bottom:15px}
+    .ftrcta .ctleft{max-width:80%;margin:0 auto;text-align:center}
+    .ftrcta img{display:block;margin:0 auto;left:0;right:0}
+    .cdp_sta{flex-direction:column;margin-bottom:100px}
+    .style_a_posts>.div2c{max-width:90%;margin:0 auto 30px}
+    .bigpost_c{padding:15px 15px 40px}
+    .bigpost_c>img{margin-bottom:40px}
+    .cdp_sta.style_b_posts{flex-direction:row;flex-wrap:wrap;justify-content:center}
+    .cntrpost,.cntrpost:last-child{width:638px;max-width:47%;margin:0 1.5% 25px}
+    .cntrpost:first-child{width:100%;max-width:100%;margin:0 1.5% 25px}
+    .cntrpost>img{width:100%}
+    .hero_def h2{font-size:64px;margin-bottom:30px}
+    .style_d_posts .div2c{display:block}
+    .f4c_post,.f4c_post:last-child{width:638px;max-width:100%;margin:0 auto 30px;padding:25px}
+    .arch_sec1 .catg_list{margin-top:-80px}
+    .arch_sec1 .catg_list li{margin:0 6px 40px}
+    .arch_sec1 .catg_list li a{width:160px;height:160px;padding:25px}
+    .arch_sec1 .catg_list li div{width:70px;height:70px}
+    .arch_hero .dflex_r{padding-bottom:170px}
+    .f4c_post h3,.f4c_post .auth_det{margin-bottom:20px}
+    h2.hdnh2_n{margin-bottom:30px}
+    .abt_last_sec{margin-bottom:50px}
+    .abt_last_sec .dflex_c{align-items:center;justify-content:center;flex-direction:column}
+    .abt_last_sec .dflex_c>h2{width:auto;margin:0 0 30px}
+    .abt_last_sec .dflex_c>div{width:auto}
+    .blogpost_sec .wrp_1320{flex-direction:column;align-items:center}
+    .blogpost_sec{padding-top:70px}
+    .psidebar{max-width:100%;margin:50px auto 0;width:100%;display:flex;justify-content:space-between;align-items:flex-start}
+    .widrs{margin-bottom:40px;width:44%}
+    .pcontleft{max-width:100%;margin:0 auto}
+    .breadcrumb_top li{font-size:16px}
+    h1.posttitle{font-size:48px}
+    hr.black_bar{margin:70px 0}
+    .content_pst blockquote p{padding:50px}
+    }
+    @media (min-width:993px) and (max-width:1200px) {
+    .hero_home{padding:110px 0;background-position:right 10% bottom;background-size:50%}
+    .hero_home .herocnt{max-width:48%;margin:0}
+    .hero_home h2{font-size:56px;margin-bottom:20px}
+    .hero_home p{font-size:18px}
+    .hero_home p br{display:none}
+    .frmcode{margin-top:30px}
+    .frmcode form{padding-left:25px}
+    .frmcode input[type="submit"]{font-size:16px;width:140px;height:50px}
+    .frmcode input[type="text"],.hero_home input[type="email"]{font-size:16px;height:30px}
+    .cd_head{display:flex}
+    .cd_shlist{align-items:flex-end}
+    .cd_nameico h3{font-size:42px}
+    .cdp_sta h3{font-size:26px;margin-bottom:16px}
+    .cdp_sta .auth_det{margin-bottom:16px}
+    .cdp_sta p{line-height:1.4em}
+    .cntrpost>img{margin-bottom:30px}
+    .cntrpost{margin-right:25px}
+    .rht_post{padding:12px;margin-bottom:16px}
+    .rht_post>div{padding:0 20px}
+    .rht_post h3{font-size:20px;margin-bottom:14px}
+    .rht_post .auth_det{margin-bottom:14px}
+    .rht_post p{line-height:1.3em}
+    .ftrcta{padding:90px 0}
+    .ftrcta h2{font-size:48px}
+    .fsidew{max-width:50%}
+    .hero_home .herocnt:before{bottom:-40px;left:-5%;width:80px;height:80px;background-size:contain}
+    .style_d_posts .div2c{flex-wrap:wrap;justify-content:center}
+    .f4c_post,.f4c_post:last-child{padding:30px;max-width:44%;width:auto;margin:0 2% 40px}
+    .abt_last_sec .dflex_c>h2{width:40%}
+    .team_mems li{max-width:18%;padding:20px 2%}
+    .ourstats_sec h2{margin-bottom:60px}
+    .ourstats_wids li{padding:60px 2%}
+    .ourstats_wids li h3{font-size:64px}
+    .ourstats_wids li p{font-size:20px}
+    .ourstats_wids li .stat_ico{width:80px;height:80px}
+    .editr_proc img{max-height:70px;height:auto}
+    h2.hdnh2_n{margin-bottom:40px}
+    .abt_last_sec{margin-bottom:50px}
+    .hero_def h2{font-size:56px;margin-bottom:30px}
+    .pcontleft{max-width:70%}
+    .psidebar{max-width:26%}
+    h1.posttitle{font-size:54px}
+    }
+    @media (min-width:1101px) and (max-width:1200px) {
+    .cd_nameico{margin-bottom:0}
+    .cd_shlist{flex-direction:row;align-items:center}
+    .cd_shlist ul{margin:0}
+    a.seeall_btn{min-width:160px;font-size:16px}
+    .ourstats_wids li h3{font-size:70px}
+    .ourstats_wids li p{font-size:22px}
+    }
+    @media (min-width:1201px) and (max-width:1400px) {
+    a.logo_hdr img{width:50px}
+    a.logo_hdr div{margin:22px 0 0 15px;font-size:34px}
+    p.logo_tagline{margin:0 0 1px 20px;font-size:16px}
+    .tpmenu li{margin-left:25px}
+    .tpmenu a{font-size:17px}
+    .btmmenu li{margin-right:35px}
+    .btmmenu a{letter-spacing:.5px;font-size:17px}
+    .searchb input{width:100px}
+    .hero_home{padding:140px 0;background-size:55%;background-position:right 7% bottom}
+    .hero_home .herocnt{max-width:50%}
+    .hero_home h2{font-size:64px;margin-bottom:30px}
+    .hero_home p{font-size:20px}
+    .hero_home p br{display:none}
+    .hero_home .frmcode{margin-top:30px}
+    .hero_home .herocnt:before{bottom:-40px;left:-5%;width:80px;height:80px;background-size:contain}
+    .cd_nameico img{width:60px;margin-right:30px}
+    .cd_nameico h3{font-size:48px}
+    .cd_shlist ul li a{font-size:17px}
+    a.seeall_btn{min-width:170px;font-size:17px}
+    .cdp_sta h3{font-size:30px}
+    .cntrpost{margin-right:34px}
+    .rht_post>div{padding:0 25px}
+    .rht_post h3{font-size:26px}
+    .catg_list li{margin:0 17px 34px}
+    .catg_list li a{padding:40px 30px;width:250px;height:250px}
+    .catg_list li div{width:140px;height:100px;margin-bottom:30px}
+    .team_mems li{margin:0 1% 35px;max-width:18%;padding:35px 2%;width:100%}
+    .team_mems img{width:125px;height:125px;margin-bottom:25px}
+    .team_mems h3{font-size:28px;margin-bottom:10px}
+    .team_mems p{margin-bottom:25px}
+    .team_mems a.btno{width:auto}
+    .ourstats_wids li{padding:60px 2%;margin:0 1% 30px;width:25%;align-items:center}
+    .ourstats_wids li .stat_ico{width:130px;height:130px;margin-right:0}
+    .ourstats_wids li h3{font-size:82px}
+    .ourstats_wids li p{font-size:22px}
+    h2.hdnh2_n{font-size:52px}
+    }
+    @media (min-width:1201px) and (max-width:1300px) {
+    .catg_list li{margin:0 17px 34px}
+    .catg_list li a{padding:40px 30px;width:220px;height:220px}
+    .catg_list li div{width:140px;height:100px;margin-bottom:30px}
+    .f4c_post{width:auto;max-width:23.5%;margin:0 1.5% 30px 0;padding:35px 25px}
+    }
+    @media (min-width:1401px) and (max-width:1550px) {
+    .catg_list li{margin:0 17px 34px}
+    .catg_list li a{padding:40px 30px;width:250px;height:250px}
+    .catg_list li div{width:140px;height:100px;margin-bottom:30px}
+    .team_mems li{margin:0 1% 35px;max-width:18%;padding:35px 2%;width:100%}
+    .team_mems img{width:130px;height:130px;margin-bottom:30px}
+    .team_mems h3{font-size:30px;margin-bottom:10px}
+    .team_mems p{margin-bottom:30px}
+    .team_mems a.btno{width:auto}
+    }
